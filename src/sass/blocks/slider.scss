@@ -1,0 +1,19 @@
+.slider__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 39px 0 0 0;
+}
+
+.slider__btn {
+  background-color: $base-white;
+  border: none;
+}
+
+.slider__icon {
+  stroke: $special-gray-light;
+
+  &--active {
+    stroke: $special-gray;
+  }
+}
