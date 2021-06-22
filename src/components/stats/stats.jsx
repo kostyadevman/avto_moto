@@ -7,32 +7,32 @@ const Stats = () => {
       <ul className="stats__list">
         <li className="stats__item">
           <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="1.74597" y="0.75" width="10.9495" height="19.9131" rx="1.25" stroke="#48494D" stroke-width="1.5"/>
+            <rect x="1.74597" y="0.75" width="10.9495" height="19.9131" rx="1.25" stroke="#48494D" strokeWidth="1.5"/>
             <mask id="path-2-inside-1" fill="white">
             <rect x="3.09686" y="3.0968" width="8.2583" height="7.22601" rx="1"/>
             </mask>
-            <rect x="3.09686" y="3.0968" width="8.2583" height="7.22601" rx="1" stroke="#48494D" stroke-width="3" mask="url(#path-2-inside-1)"/>
-            <path d="M12.9474 10.834V10.834C14.1306 10.834 15.0897 11.7931 15.0897 12.9763V15.6395C15.0897 16.985 15.6253 19.1298 17.589 18.9072C19.5527 18.6846 19.9098 16.6819 19.9098 15.255C19.9098 13.8282 19.1957 10.6418 19.3742 7.95073C19.5527 5.25966 21.1594 2.95304 22.4091 1.99194" stroke="#48494D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <rect x="0.497979" y="20.506" width="13.4454" height="0.995959" rx="0.497979" fill="#48494D" stroke="#48494D" stroke-width="0.995959"/>
-            <path d="M20.4181 5.47778V5.47778C21.3327 5.70145 21.9439 6.56319 21.8527 7.50029L21.7677 8.37356C21.6801 9.27332 20.9237 9.9596 20.0197 9.9596V9.9596" stroke="#48494D" stroke-width="1.5"/>
+            <rect x="3.09686" y="3.0968" width="8.2583" height="7.22601" rx="1" stroke="#48494D" strokeWidth="3" mask="url(#path-2-inside-1)"/>
+            <path d="M12.9474 10.834V10.834C14.1306 10.834 15.0897 11.7931 15.0897 12.9763V15.6395C15.0897 16.985 15.6253 19.1298 17.589 18.9072C19.5527 18.6846 19.9098 16.6819 19.9098 15.255C19.9098 13.8282 19.1957 10.6418 19.3742 7.95073C19.5527 5.25966 21.1594 2.95304 22.4091 1.99194" stroke="#48494D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <rect x="0.497979" y="20.506" width="13.4454" height="0.995959" rx="0.497979" fill="#48494D" stroke="#48494D" strokeWidth="0.995959"/>
+            <path d="M20.4181 5.47778V5.47778C21.3327 5.70145 21.9439 6.56319 21.8527 7.50029L21.7677 8.37356C21.6801 9.27332 20.9237 9.9596 20.0197 9.9596V9.9596" stroke="#48494D" strokeWidth="1.5"/>
           </svg>
           <span>бензин</span>
         </li>
         <li className="stats__item">
           <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4.1944 12H21.8057" stroke="#48494D" stroke-width="1.5"/>
-            <path d="M4.1944 12H21.8057" stroke="#48494D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M13 6.52966V17.4707" stroke="#48494D" stroke-width="1.5"/>
-            <path d="M13 6.52966V17.4707" stroke="#48494D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M21.8059 6.52966V12.0003" stroke="#48494D" stroke-width="1.5"/>
-            <path d="M21.8059 6.52966V12.0003" stroke="#48494D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M4.1944 6.52966V17.4713" stroke="#48494D" stroke-width="1.5"/>
-            <path d="M4.1944 6.52966V17.4713" stroke="#48494D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M4.19432 6.5295C5.67787 6.5295 6.88052 5.32685 6.88052 3.8433C6.88052 2.35976 5.67787 1.1571 4.19432 1.1571C2.71077 1.1571 1.50812 2.35976 1.50812 3.8433C1.50812 5.32685 2.71077 6.5295 4.19432 6.5295Z" stroke="#48494D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M12.9999 6.5295C14.4835 6.5295 15.6861 5.32685 15.6861 3.8433C15.6861 2.35976 14.4835 1.1571 12.9999 1.1571C11.5164 1.1571 10.3137 2.35976 10.3137 3.8433C10.3137 5.32685 11.5164 6.5295 12.9999 6.5295Z" stroke="#48494D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M21.8061 6.5295C23.2896 6.5295 24.4923 5.32685 24.4923 3.8433C24.4923 2.35976 23.2896 1.1571 21.8061 1.1571C20.3225 1.1571 19.1199 2.35976 19.1199 3.8433C19.1199 5.32685 20.3225 6.5295 21.8061 6.5295Z" stroke="#48494D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M4.19432 22.8429C5.67787 22.8429 6.88052 21.6402 6.88052 20.1567C6.88052 18.6731 5.67787 17.4705 4.19432 17.4705C2.71077 17.4705 1.50812 18.6731 1.50812 20.1567C1.50812 21.6402 2.71077 22.8429 4.19432 22.8429Z" stroke="#48494D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M12.9999 22.8429C14.4835 22.8429 15.6861 21.6402 15.6861 20.1567C15.6861 18.6731 14.4835 17.4705 12.9999 17.4705C11.5164 17.4705 10.3137 18.6731 10.3137 20.1567C10.3137 21.6402 11.5164 22.8429 12.9999 22.8429Z" stroke="#48494D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4.1944 12H21.8057" stroke="#48494D" strokeWidth="1.5"/>
+            <path d="M4.1944 12H21.8057" stroke="#48494D" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M13 6.52966V17.4707" stroke="#48494D" strokeWidth="1.5"/>
+            <path d="M13 6.52966V17.4707" stroke="#48494D" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M21.8059 6.52966V12.0003" stroke="#48494D" strokeWidth="1.5"/>
+            <path d="M21.8059 6.52966V12.0003" stroke="#48494D" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M4.1944 6.52966V17.4713" stroke="#48494D" strokeWidth="1.5"/>
+            <path d="M4.1944 6.52966V17.4713" stroke="#48494D" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M4.19432 6.5295C5.67787 6.5295 6.88052 5.32685 6.88052 3.8433C6.88052 2.35976 5.67787 1.1571 4.19432 1.1571C2.71077 1.1571 1.50812 2.35976 1.50812 3.8433C1.50812 5.32685 2.71077 6.5295 4.19432 6.5295Z" stroke="#48494D" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M12.9999 6.5295C14.4835 6.5295 15.6861 5.32685 15.6861 3.8433C15.6861 2.35976 14.4835 1.1571 12.9999 1.1571C11.5164 1.1571 10.3137 2.35976 10.3137 3.8433C10.3137 5.32685 11.5164 6.5295 12.9999 6.5295Z" stroke="#48494D" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M21.8061 6.5295C23.2896 6.5295 24.4923 5.32685 24.4923 3.8433C24.4923 2.35976 23.2896 1.1571 21.8061 1.1571C20.3225 1.1571 19.1199 2.35976 19.1199 3.8433C19.1199 5.32685 20.3225 6.5295 21.8061 6.5295Z" stroke="#48494D" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M4.19432 22.8429C5.67787 22.8429 6.88052 21.6402 6.88052 20.1567C6.88052 18.6731 5.67787 17.4705 4.19432 17.4705C2.71077 17.4705 1.50812 18.6731 1.50812 20.1567C1.50812 21.6402 2.71077 22.8429 4.19432 22.8429Z" stroke="#48494D" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M12.9999 22.8429C14.4835 22.8429 15.6861 21.6402 15.6861 20.1567C15.6861 18.6731 14.4835 17.4705 12.9999 17.4705C11.5164 17.4705 10.3137 18.6731 10.3137 20.1567C10.3137 21.6402 11.5164 22.8429 12.9999 22.8429Z" stroke="#48494D" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
           <span>механика</span>
         </li>

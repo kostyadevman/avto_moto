@@ -1,0 +1,19 @@
+.profile {
+  line-height: 21px;
+}
+
+.profile__header {
+  font-weight: normal;
+}
+
+.profile__row {
+  display: flex;
+  justify-content: space-between;
+  min-width: 565px;
+  padding: 20px 0 8px 0;
+  border-bottom: 1px solid $special-gray-light;
+}
+
+.profile__value {
+  color: $base-black;
+}
