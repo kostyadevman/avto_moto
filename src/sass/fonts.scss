@@ -6,3 +6,12 @@
        url("../fonts/open-sans-v20-latin-regular.woff") format("woff");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Open Sans SemiBold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-semibold.woff2") format("woff2"),
+       url("../fonts/open-sans-semibold.woff") format("woff");
+  font-display: swap;
+}

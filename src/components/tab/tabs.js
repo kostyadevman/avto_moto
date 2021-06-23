@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import Contacts from "../contacts/contacts";
 import Profile from "../profile/profile";
 import Feedback from "../feedback/feedback";

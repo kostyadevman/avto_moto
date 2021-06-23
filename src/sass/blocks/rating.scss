@@ -1,0 +1,14 @@
+.rating__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rating__star {
+  fill: $special-gray-s;
+
+  &--active {
+    fill: $base-red;
+  }
+}
