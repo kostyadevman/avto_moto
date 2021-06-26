@@ -4,6 +4,7 @@ export const AppRoute = {
   CONTACTS: `/contacts`,
   VACANCY: `/vacancy`,
   SERVICES: `/services`,
+  NOT_IMPLEMENTED: `/not-implemented`
 };
 
 export const EMPTY_COMMENT = {
@@ -15,6 +16,11 @@ export const EMPTY_COMMENT = {
   text: ``
 }
 
+export const ERRORS_INIT = {
+  name: false,
+  text: false
+}
 export const MAX_RATING = 5;
 
+export const ID_SIZE = 5;
 

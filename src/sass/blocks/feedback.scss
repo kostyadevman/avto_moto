@@ -24,24 +24,42 @@
 }
 
 .feedback__img {
-  margin: 6px 10px 0 0;
+  margin: 6px 13px 0 0;
 }
 
 .feedback__label {
-  margin: 0 0 10px 0;
+  margin: 0 0 6px 0;
   font-weight: 600;
 }
 
 .feedback__value {
-  margin: 0 0 15px 0;
+  margin: 0 0 17px 0;
+  overflow: hidden;
 }
 
 .feedback__name {
-  margin: 0 0 15px 0;
+  margin: 0 0 19px 0;
   font-style: $special-f;
   font-weight: 600;
   font-size: 20px;
   color: $base-black-light;
+}
+
+.feedback__wrapper-time {
+  display: flex;
+}
+
+.feedback__time {
+  margin: 0 20px 0 0;
+  opacity: 0.7;
+}
+
+.feedback__request {
+  padding: 0;
+  font-size: 16px;
+  color: $base-red;
+  background-color: $base-white;
+  border: none;
 }
 
 .feedback__add-comment {
@@ -49,10 +67,4 @@
   right: 0;
   top: 0;
   padding: 17px 20px;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 19px;
-  text-transform: lowercase;
-  color: $base-red;
-  border: solid 1px $base-red;
 }

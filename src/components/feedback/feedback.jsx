@@ -2,11 +2,13 @@ import React from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {setModalOpen} from "../../store/action";
 import Rating from "../rating/rating";
+import {getHumanizeDate} from "../../utils";
 
 const Feedback = () => {
   const dispatch = useDispatch();
   const comments = useSelector((state) => state.comments)
   const _handleAddClick = (evt) => {
+    evt.preventDefault();
     dispatch(setModalOpen(true));
   }
 
@@ -36,12 +38,18 @@ const Feedback = () => {
             </div>
             <p className="feedback__label">Комментарий</p>
             <p className="feedback__value">{comment.text}</p>
-            <Rating rating={comment.rating}/>
+            <div className="feedback__rating rating rating--feedback">
+              <Rating rating={comment.rating}/>
+            </div>
+            <div className="feedback__wrapper-time">
+              <p className="feedback__time">{getHumanizeDate(comment.date)}</p>
+              <button className="feedback__request">Ответить</button>
+            </div>
           </li>
         ))}
       </ul>
     <button
-      className="feedback__add-comment"
+      className="feedback__add-comment button button--type2"
       onClick={_handleAddClick}
     >
       оставить отзыв

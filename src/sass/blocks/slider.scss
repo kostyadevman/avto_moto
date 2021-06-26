@@ -1,3 +1,18 @@
+.slider {
+  position: relative;
+}
+
+.slider__tag {
+  position: absolute;
+  padding: 6px 28px;
+  font-size: 11px;
+  text-transform: uppercase;
+  border: none;
+  font-family: $special-f;
+  color: $base-white;
+  background-color: $base-red;
+}
+
 .slider__wrapper {
   display: flex;
   justify-content: space-between;

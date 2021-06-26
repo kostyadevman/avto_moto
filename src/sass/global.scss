@@ -34,7 +34,6 @@ a {
 
 img {
   height: auto;
-  //width: 100%;
 }
 
 .visually-hidden {
@@ -51,8 +50,41 @@ img {
 }
 
 .container {
-  width: 1366px;
+  width: 1398px;
   margin: 0 auto;
   padding-left: 98px;
   padding-right: 98px;
+}
+
+.button {
+  padding: 16px 18px;
+  font-size: 14px;
+  letter-spacing: .12rem;
+  text-transform: uppercase;
+  border-radius: 0;
+
+  &--type1 {
+    border: none;
+    font-family: $special-f;
+    color: $base-white;
+    background-color: $base-red;
+  }
+
+  &--type2 {
+    border: 1px solid $base-red;
+    color: $base-red;
+    background-color: $base-white;
+  }
+}
+
+.button--type1:focus,
+.button--type1:hover {
+  color: $base-white;
+  background-color: $special-red;
+}
+
+.button--type2:focus,
+.button--type2:hover {
+  color: $base-white;
+  background-color: $base-red;
 }

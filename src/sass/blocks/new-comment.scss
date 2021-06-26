@@ -14,12 +14,36 @@
   }
 }
 
+.modal__title {
+  margin: 35px auto 23px;
+  font-family: $special-f;
+  font-size: 25px;
+}
+
 .modal__content {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: $base-white;
+}
+
+.modal__cancel {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background-color: $base-white;
+}
+
+.modal__cancel-img {
+  fill: $special-gray-light;
+}
+
+.modal__cancel:hover .modal__cancel-img,
+.modal__cancel:focus .modal__cancel-img {
+  fill: $base-red;
 }
 
 .new-comment {
@@ -29,7 +53,8 @@
     "pros text"
     "cons text"
     "submit submit";
-  gap: 20px;
+  column-gap: 25px;
+  row-gap: 20px;
   margin: 30px;
 }
 
@@ -48,34 +73,57 @@
   grid-area: cons;
 }
 
-.new-comment__input--text {
+.new-comment__field--text {
   grid-area: text;
 }
 
 .new-comment__submit {
   grid-area: submit;
-  margin: 0 100px;
+  width: 190px;
+  margin: 0 auto 30px auto;
 }
-.new-comment__input--name {
-  padding: 10px;
-  background-color: $base-white;
+
+.new-comment__input {
+  position: relative;
+  width: 300px;
+  height: 100%;
+  padding: 15px 25px;
+  border: 1px solid rgba(72, 73, 77, 0.2);
+  font-family: $base-f;
+  font-size: 16px;
+  line-height: 16px;
 }
+
 .rating {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
+
+  &--feedback {
+    flex-direction: row;
+  }
 }
 
 .rating__label {
   display: block;
   width: 17px;
   height: 16px;
-  margin-right: 4px;
+  margin-right: 15px;
   cursor: pointer;
 }
 
+.rating__text {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-family: $special-f;
+  font-size: 15px;
+  color: $base-black;
+}
+
 .rating__star-img {
+  width: 30px;
+  height: 30px;
   fill: $special-gray-s
 }
 .rating__input:checked~.rating__label .rating__star-img,
@@ -87,4 +135,40 @@
 
 .new-comment__input--text {
   resize: none;
+}
+
+.new-comment__field {
+  position: relative;
+}
+
+.new-comment__field {
+  &--required {
+    position: relative;
+  }
+}
+
+.new-comment__field--required::before {
+  content: "*";
+  position: absolute;
+  display: block;
+  top: 10px;
+  left: 12px;
+  z-index: 2;
+  font-family: $special-f2;
+  color: $base-red;
+}
+
+.new-comment__field--error::after {
+  z-index: 5;
+  content: "Пожалуйста, заполните поле";
+  font-size: 14px;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: #FF0000;
+}
+
+.new-comment__field--error input,
+.new-comment__field--error textarea {
+  border: 1px solid $base-red;
 }

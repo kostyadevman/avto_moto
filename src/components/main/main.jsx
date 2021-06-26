@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from "../hero/hero";
-import Tabs from "../tab/tabs";
+import Tabs from "../tabs/tabs";
 import NewComment from "../new-comment/new-comment";
 
 const Main = () => {
@@ -9,6 +9,7 @@ const Main = () => {
       <Hero />
       <Tabs />
       <NewComment />
+
     </main>
   );
 };

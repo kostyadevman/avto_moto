@@ -39,6 +39,7 @@ const Slider = () => {
 
   return (
     <section className="slider">
+      <span className="slider__tag">New model</span>
       <img src={Images[index]} alt="Car big"/>
       <div className="slider__wrapper">
         <button className="slider__btn" onClick={prevClickHandler} disabled={prevBtnStatus}>

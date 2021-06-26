@@ -38,7 +38,7 @@ const Rating = ({rating}) => {
     return text;
   }
   return (
-    <React.Fragment>
+    <div className="rating__wrapper">
       <ul className="rating__list">
         {ratingList.map((item, index) => (
           <li key={index}>
@@ -48,8 +48,8 @@ const Rating = ({rating}) => {
           </li>
         ))}
       </ul>
-      <span>{getRatingText(rating)}</span>
-    </React.Fragment>
+      <span className="rating__score">{getRatingText(rating)}</span>
+    </div>
   );
 };
 

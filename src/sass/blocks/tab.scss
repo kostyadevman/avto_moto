@@ -1,5 +1,6 @@
 .tab {
-  margin: 90px 0 140px 0;
+  margin: 86px 0 140px 0;
+  padding: 0 30px 0 0;
 }
 .tab__pane {
   display: none;
@@ -18,7 +19,7 @@
 
 .tab__item {
   min-width: 195px;
-  padding: 15px;
+  padding: 12px;
   text-align: center;
   border: solid 1px $special-gray-light;
   font-size: 20px;

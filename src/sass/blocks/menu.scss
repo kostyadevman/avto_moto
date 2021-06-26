@@ -1,12 +1,23 @@
 .menu__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
   list-style: none;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .menu__link {
   display: block;
-  padding: 31px 34px;
+  padding: 31px 30px 31px 30px;
+  text-decoration: none;
+}
+
+.menu__link:hover,
+.menu__link:focus,
+.menu__link:active {
+  text-decoration: none;
+  color: $base-red;
 }

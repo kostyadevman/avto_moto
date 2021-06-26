@@ -15,3 +15,12 @@
        url("../fonts/open-sans-semibold.woff") format("woff");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "ProximaNova Bold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"),
+       url("../fonts/ProximaNova-Bold.woff") format("woff");
+  font-display: swap;
+}
