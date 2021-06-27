@@ -132,7 +132,7 @@ const NewComment = () => {
             type="text"
             className="new-comment__input new-comment__input--pros"
             name="pros"
-            id="text"
+            id="pros"
             autoComplete="off"
             onChange={_handleInputChange}
             value={comment.pros}
@@ -143,6 +143,7 @@ const NewComment = () => {
             type="text"
             className="new-comment__input new-comment__input--cons"
             name="cons"
+            id="cons"
             autoComplete="off"
             onChange={_handleInputChange}
             value={comment.cons}
@@ -179,6 +180,7 @@ const NewComment = () => {
             <textarea
               className="new-comment__input new-comment__input--text"
               name="text"
+              id="text"
               autoComplete="off"
               required
               onChange={_handleInputChange}
