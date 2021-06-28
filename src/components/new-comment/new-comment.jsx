@@ -9,10 +9,13 @@ import {EMPTY_COMMENT, ERRORS_INIT, MAX_RATING} from "../../const";
 const NewComment = () => {
 
 
+  const commentInit = localStorage.getItem('commnet') ?
+    JSON.parse(localStorage.getItem('commnet')) :
+    EMPTY_COMMENT
 
   const dispatch = useDispatch();
   const isModalOpen = useSelector((state) => state.isModalOpen);
-  const [comment, setComment] = useState(JSON.parse(localStorage.getItem('commnet')));
+  const [comment, setComment] = useState(commentInit);
   const [errors, setErrors] = useState(ERRORS_INIT);
   const textInput = useRef(null);
 

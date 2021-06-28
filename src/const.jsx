@@ -24,3 +24,11 @@ export const MAX_RATING = 5;
 
 export const ID_SIZE = 5;
 
+export const RatingScore = {
+  NOT: 0,
+  WORST: 1,
+  BAD: 2,
+  MEDIUN: 3,
+  HIGHT: 4,
+  BEST: 5
+}
