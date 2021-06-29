@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import {getRatingList} from "../../utils";
-import {MAX_RATING, RatingScore} from "../../const";
+import {MAX_RATING, RatingScore, RatingText} from "../../const";
 
 const Rating = ({rating}) => {
   const ratingList = getRatingList(MAX_RATING);
@@ -15,25 +15,25 @@ const Rating = ({rating}) => {
 
     switch (rating) {
       case RatingScore.NOT:
-        text = ``;
+        text = RatingText.EMPTY;
         break;
       case RatingScore.WORST:
-        text = `Не советует`;
+        text = RatingText.NOT_MATCH;
         break;
       case RatingScore.BAD:
-        text = `Не советует`;
+        text = RatingText.NOT_MATCH;
         break;
       case RatingScore.MEDIUN:
-        text = `Советует`;
+        text = RatingText.MATCH;
         break;
       case RatingScore.HIGHT:
-        text = `Советует`;
+        text = RatingText.MATCH;
         break;
       case RatingScore.BEST:
-        text = `Советует`;
+        text = RatingText.MATCH;
         break;
       default:
-        text = ``;
+        text = RatingText.EMPTY;
     }
     return text;
   }

@@ -32,3 +32,9 @@ export const RatingScore = {
   HIGHT: 4,
   BEST: 5
 }
+
+export const RatingText = {
+  MATCH: `Советует`,
+  NOT_MATCH: `Не советует`,
+  EMPTY: ``
+}
