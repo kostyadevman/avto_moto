@@ -61,6 +61,12 @@
   color: $base-red;
   background-color: $base-white;
   border: none;
+  cursor: pointer;
+}
+
+.feedback__request:hover,
+.feedback__request:focus {
+  color: $special-red;
 }
 
 .feedback__add-comment {

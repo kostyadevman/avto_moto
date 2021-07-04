@@ -23,6 +23,12 @@
 .slider__btn {
   background-color: $base-white;
   border: none;
+  cursor: pointer;
+}
+
+.slider__btn:not(:disabled):hover,
+.slider__btn:not(:disabled):focus {
+  opacity: 0.7;
 }
 
 .slider__icon {

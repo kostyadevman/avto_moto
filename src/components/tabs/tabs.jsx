@@ -3,6 +3,8 @@ import Contacts from "../contacts/contacts";
 import Profile from "../profile/profile";
 import Feedback from "../feedback/feedback";
 
+const TAB_INDEX_OFFSET = 1;
+
 const Items = [
   {title: `Характеристики`, className: `profile`, component: <Profile />},
   {title: `Отзывы`, className: `feedback`, component: <Feedback />},
@@ -25,6 +27,7 @@ const Tabs = () => {
             data-index={index}
             key={index}
             onClick={_handleOpenClick}
+            tabIndex={index + TAB_INDEX_OFFSET}
           >
             {item.title}
           </li>

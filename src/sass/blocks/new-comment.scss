@@ -34,7 +34,8 @@
   top: 15px;
   right: 15px;
   border: none;
-  background-color: $base-white;
+  background-color: inherit;
+  cursor: pointer;
 }
 
 .modal__cancel-img {
@@ -81,6 +82,7 @@
   grid-area: submit;
   width: 190px;
   margin: 0 auto 30px auto;
+  cursor: pointer;
 }
 
 .new-comment__input {
