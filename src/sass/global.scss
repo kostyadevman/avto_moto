@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   height: 100%;
 }
 
@@ -50,10 +51,9 @@ img {
 }
 
 .container {
-  width: 1398px;
+  max-width: $desktop-width;
   margin: 0 auto;
-  padding-left: 98px;
-  padding-right: 98px;
+  padding: 0 5px;
 }
 
 .button {

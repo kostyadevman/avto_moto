@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <nav className="menu">
-          <ul className="menu__list">
+          <ul className="menu__list menu__list--footer">
             <li className="menu__item">
               <Link className="menu__link" to={AppRoute.NOT_IMPLEMENTED}>Корпоративным клиентам</Link>
             </li>
