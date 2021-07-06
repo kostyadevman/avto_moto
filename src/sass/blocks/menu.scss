@@ -1,7 +1,7 @@
 .menu__list {
   display: flex;
   justify-content: flex-start;
-  gap: 30px;
+  column-gap: 60px;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -10,8 +10,7 @@
   font-weight: 600;
 
   &--footer {
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: flex-start;
   }
 }
 
