@@ -22,14 +22,15 @@ const Tabs = () => {
     <section className="tab">
       <ul className="tab__list">
         {Items.map((item, index) => (
-          <li
-            className={(index === active ? `tab__item tab__item--active` : `tab__item`)}
-            data-index={index}
-            key={index}
-            onClick={_handleOpenClick}
-            tabIndex={index + TAB_INDEX_OFFSET}
-          >
-            {item.title}
+          <li>
+            <button
+              className={(index === active ? `tab__item tab__item--active` : `tab__item`)}
+              data-index={index}
+              key={index}
+              onClick={_handleOpenClick}
+            >
+              {item.title}
+            </button>
           </li>
         ))}
       </ul>
